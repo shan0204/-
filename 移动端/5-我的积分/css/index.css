@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 100px;
+}
+body {
+    font-size: initial;
+    background-color: #f2f2f2;
+}
+
+@media screen and (min-width: 320px) {html{font-size:42.67px;}}
+@media screen and (min-width: 360px) {html{font-size:48px;}}
+@media screen and (min-width: 375px) {html{font-size:50px;}}
+@media screen and (min-width: 412px) {html{font-size:54.93px;}}
+@media screen and (min-width: 414px) {html{font-size:55.2px;}}
+@media screen and (min-width: 546px) {html{font-size:72.8px;}}
+@media screen and (min-width: 568px) {html{font-size:75.73px;}}
+@media screen and (min-width: 640px) {html{font-size:85.33px;}}
+@media screen and (min-width: 667px) {html{font-size:88.93px;}}
+@media screen and (min-width: 732px) {html{font-size:97.6px;}}
+@media screen and (min-width: 736px) {html{font-size:98.13px;}}
+@media screen and (min-width: 750px) {html{font-size:100px;}}
+@media screen and (min-width: 768px) {html{font-size:102.4px;}}
+@media screen and (min-width: 1024px) {html{font-size:136.53px;}}
+@media screen and (min-width: 1366px) {html{font-size:182.13px;}}
+
+#main {
+   margin: 0 auto;
+}
+#main .top {
+    width: 100%;
+    height: 1rem;
+    background: #393a3e;
+    font-size: .17rem;
+    padding:0 15px;
+}
+#main .top .top_a {
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    float: left;
+    margin: .41rem .25rem 0 0;
+}
+#main .top .top_a img {
+    width: .3rem;
+    height: .3rem;
+}
+#main .top .top_b {
+    display: inline-block;
+    font-size: .25rem;
+    color: #fff;
+    margin-top: .38rem;
+}
+#main .top .top_c {
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    float: right;
+    margin-top: .32rem;
+}
+#main .top .top_c img {
+    width: .4rem;
+    height: .4rem;
+}
+
+#main .center {
+    position: relative;
+    width: 100%;
+    height: 4.3rem;
+    background: #fff;
+}
+#main .center .center_a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin:  auto;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.03rem solid #f99c2f;
+    background: #fff;
+    border-radius: 50%;
+}
+#main .center .center_a .yuan {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin:  auto;
+    width: 2.3rem;
+    height: 2.3rem;
+    background: #f99c2f;
+    border-radius: 50%;
+}
+#main .center .center_a .yuan p {
+    color: #fff;
+    font-size: .3rem;
+    margin-left: .85rem;
+    margin-top: .6rem;
+}
+#main .center .center_a .yuan p .gg {
+    margin-left: -0.2rem;
+    font-size: .6rem;
+}
+
+#main .bottom {
+    width: 6.95rem;
+    height: 3.65rem;
+    background: #fff;
+    margin: .3rem auto;
+}
+#main .bottom .timer {
+    width: 100%;
+    height: 1.21rem;
+    padding: .2rem .25rem;
+    border-bottom: 1px solid #ccc;
+}
+#main .bottom .timer .timer_s {
+    width: 100%;
+    height: .35rem;
+}
+#main .bottom .timer .timer_s .left {
+    display: inline-block;
+    color: #333;
+    font-size: .3rem;
+    float: left;
+}
+#main .bottom .timer .timer_s .right {
+    display: inline-block;
+    color: #999;
+    font-size: .3rem;
+    float: right;
+}
+#main .bottom .timer .timer_x {
+    width: 100%;
+    height: .35rem;
+    margin-top: .1rem;
+}
+#main .bottom .timer .timer_x p {
+    color: #999;
+    font-size: .25rem;
+}
